@@ -429,7 +429,7 @@ public class Server extends Thread {
     	     	processTransactions(trans);
     	     	serverEndTime = System.currentTimeMillis();
     	     	serverThreadRunningStatus1 = "terminated";
-    	        System.out.println("\n Terminating server thread - 1" + " Running time " + (serverEndTime - serverStartTime) + " milliseconds");
+    	        System.out.println("\n Terminating server thread 1 - " + " Running time " + (serverEndTime - serverStartTime) + " milliseconds");
     	 }
      	
     	 else if (serverThreadId == "Thread2") {
@@ -438,7 +438,7 @@ public class Server extends Thread {
     	     	processTransactions(trans);
     	     	serverEndTime = System.currentTimeMillis();
     	     	serverThreadRunningStatus2 = "terminated";
-    	        System.out.println("\n Terminating server thread - 2" + " Running time " + (serverEndTime - serverStartTime) + " milliseconds");
+    	        System.out.println("\n Terminating server thread 2 - " + " Running time " + (serverEndTime - serverStartTime) + " milliseconds");
     	 }
      	
         
